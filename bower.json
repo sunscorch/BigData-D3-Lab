@@ -6,7 +6,7 @@
     "rile ge"
   ],
   "description": "lab for d3",
-  "main": "",
+  "main": "index.html",
   "license": "MIT",
   "homepage": "",
   "ignore": [

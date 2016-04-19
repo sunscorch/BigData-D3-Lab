@@ -1,0 +1,44 @@
+<html>
+<body>
+    <!--
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    -->
+     <script src="bower_components/jQuery/dist/jquery.min.js"></script>
+     <script src="bower_components/d3/d3.min.js"></script>
+     <script type="text/javascript" src="scatterplot.js" ></script>
+     <link rel="stylesheet" type="text/css" href="style.css">
+    <h4 id="hovered">chevrolet chevelle malibu</h4>
+    <div class="plot">
+        <svg id="viz"></svg>
+    <div>
+    <div class="ui">
+        <div>
+            <label>X-Axis</label>
+            <select id="sel-x">
+                <option value="mpg">mpg</option>
+                <option value="cylinders">cylinders</option>
+                <option value="displacement">displacement</option>
+                <option value="weight">weight</option>
+                <option value="acceleration">acceleration</option>
+                <option value="model.year">model.year</option>
+            </select>
+            
+            <label>Y-Axis</label>
+            <select id="sel-y">
+               <option value="mpg">mpg</option>
+                <option value="cylinders">cylinders</option>
+                <option value="displacement">displacement</option>
+                <option value="weight">weight</option>
+                <option value="acceleration">acceleration</option>
+                <option value="model.year">model.year</option>
+            </select>
+        </div>
+        <div>
+            <input id="mpg-min" type="text" value="0" size="10">
+            <input id="mpg-max" type="text" value="0" size="10">
+            <button id="update">Query MPG</button>
+        </div>
+    </div>
+</body>
+    </html>
